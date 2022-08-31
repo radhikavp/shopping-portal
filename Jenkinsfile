@@ -17,7 +17,7 @@ pipeline{
         stage('test-app'){
             steps{
                 echo 'this is the test job'
-                sh 'npm-test'
+                sh 'npm test'
             }
         }
         stage('three'){
